@@ -1,0 +1,9 @@
+The following CSS rule uses an invalid property:
+
+```css
+div {
+  font-size: larger;
+}
+```
+
+The `larger` keyword is not a valid value for the `font-size` property.  It's meant to be used in relative sizing contexts, but not on its own.  This will likely result in the `font-size` being ignored or defaulting to the browser's default.

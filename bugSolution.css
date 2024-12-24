@@ -1,0 +1,9 @@
+To correct this, replace `larger` with a valid font size unit and value, such as pixels (`px`), ems (`em`), or rems (`rem`).  For example:
+
+```css
+div {
+  font-size: 1.2em; /* Or 16px, or 1rem, etc. */
+}
+```
+
+This ensures the `font-size` property is correctly applied.
